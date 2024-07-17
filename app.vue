@@ -65,6 +65,10 @@
               </VRow>
             </VContainer>
           </VForm>
+
+          <div class="footer">
+            <a href="https://github.com/apiwitp2070" target="_blank">GitHub</a>
+          </div>
         </div>
       </VMain>
     </VApp>
@@ -132,5 +136,14 @@ const onHeight2Update = (value: number) => {
 
 .row-container {
   position: relative;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: lightgray;
 }
 </style>
